@@ -1,3 +1,8 @@
+# 说明
+
+直接用这个师弟的模板，懒得重新搞。有兴趣的可以去这个师弟的项目贡献代码:
+[https://github.com/hijiangtao/resume](https://github.com/hijiangtao/resume)
+
 # 个人简历
 
 本项目为个人简历 Latex 源码存放，同时包含效果图呈现，简历入口为 resume-zh_CN.tex， 修改自项目 [resume](https://github.com/billryan/resume/)，若不想本地手动编译可以将该源码打包至 zip 直接上传至 ShareLatex 进行在线编译与预览。

@@ -66,13 +66,13 @@
   {\par #1 \hfill #2 \par}%
 }
 
-\newcommand{\name}[1]{
+\newcommand{\resumetitle}[1]{
   \centerline{\Huge\scshape{#1}}
   \vspace{1.2ex}
 }
 
 \newcommand{\contactInfo}[4]{
-  \centerline{\sffamily\large{\ {#1} \textperiodcentered\ \ {#2}}
+  \leftline{\sffamily\large{\ {#1} \textperiodcentered\ \ {#2}}
     \ifthenelse{\isempty{#3}}%
       { } % if {#3} is empty
       {\textperiodcentered\ \ {#3} } % homepage, no space before \text...
