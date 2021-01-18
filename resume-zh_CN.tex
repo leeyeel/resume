@@ -26,10 +26,9 @@
 \datedsubsection{\textbf{浙江大华股份有限公司} \quad \textit{嵌入式linux软件开发} \quad \textit{音视频系统}}{2019.5 - 今}
 \begin{itemize}[parsep=0.2ex]
   \item \textbf{海思平台音视频系统开发}: \newline
-    动力环境监控设备，负责音视频开发，实现了码流无编解码的OSD叠加方案，难点在于多通道码流互不影响，同时需要快速响应
+    动力环境监控设备，负责音视频开发，设计实现了码流无编解码的OSD叠加方案。
   \item \textbf{rk新平台室内机音视频开发}: \newline
-    基于linux音频子系统ALSA的音频开发。包括适配codec内核驱动，抽象音频alsa接口，添加alsa插件，修改alsa源码增加高通滤波等。
-    此项目的难点在于平台无SDK，需要自己抽象接口。
+    基于linux音频子系统ALSA的音频开发。包括适配codec内核驱动，抽象音频alsa接口，添加alsa插件，修改alsa源码增加滤波等。
   \item \textbf{sigmastar新平台音视频系统开发}:\newline
     新平台,新SDK,需要重新调整框架
   \item \textbf{内部开源工具}:\newline
@@ -46,7 +45,7 @@
 \begin{itemize}[parsep=0.2ex]
     \item \textbf{电动汽车BMS开发}: \newline
     基于AUTOSAR的新平台电池管理系统(BMS)开发，负责诊断系统开发:几百个电池单体的电压，电流，温度异常信息诊断处理，信息传输校验等。
-    难点是需要复合功能安全\emph{ISO26262}需求，需要逐项比对ISO文档需求。
+    需满足功能安全\emph{ISO26262}要求
   \item \textbf{诊断系统客户端开发}: \newline
     完全独立设计开发的诊断系统PC客户端，使用Qt开发，逐页研读\emph{ISO14229}英文原版标准，支持多语言，支持多种CAN通讯设备，为支持不同厂家的不同协议，
     实现了根据加载的配置文件改变客户端外观，改变协议内容。
@@ -60,7 +59,7 @@
     硕士期间为暗物质探测卫星(悟空号)正式成员，负责塑闪探测器的数据重建分析，相关成果已在\emph{Nature}发表，
     对新事物有浓厚的兴趣及成熟研究方法。
   \item \textbf{善于自我总结与提高}\newline
-  个人博客中记录内容全部为原创，且绝大部分都是网络上绝无仅有的教程或总结。
+  个人博客中记录内容全部为原创，且绝大部分都是网络上首创教程或总结。
   比如在阅读linux音频子系统源代码时对ALSA的跟踪分析(https://blog.whatsroot.xyz/2020/08/11/alsa\_snd\_open-analysis-6/),无论是中文网络还是英文网络都找不到第二份相关分析。
   \item \textbf{可根据英文论文或标准实现代码}\newline
   博客中有对ISO14229原文难点部分的总结:https://blog.whatsroot.xyz/2019/03/02/UDS-DTC-introduction/
