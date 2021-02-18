@@ -1,6 +1,6 @@
 ## 说明
 
-直接用这个师弟的模板，懒得重新搞。有兴趣的可以去这个师弟的项目贡献代码:
+直接用这个师弟的模板，有兴趣的可以去这个师弟的项目贡献代码:
 [https://github.com/hijiangtao/resume](https://github.com/hijiangtao/resume)
 
 ## 使用方法
