@@ -14,8 +14,8 @@
 
 \section{个人信息}
 \contactInfo{籍贯:山东}{性别: 男}{出生日期: 1990.08}{个人博客: blog.whatsroot.xyz}
-\contactInfo{电话: 17305487880}{电子邮箱: shanhu21@sina.cn}{}{}
-\contactInfo{语言: c/c++;python;Qt}{期望职位:音视频开发}{期望地点:杭州}{}
+\contactInfo{电话: 173-0548-7880}{电子邮箱: shanhu21@sina.cn}{简历获取: github.com/leeyeel/resume}{}
+\contactInfo{语言: c/c++;python;Qt}{期望职位:音视频开发}{期望地点:杭州}{目前所在地:杭州}
  
 \section{教育背景}
 \datedsubsection{\textbf{中国科学院大学} \quad \textit{粒子物理与原子核物理} \quad \textit{理学硕士}}{2014.9 - 2017.6}
@@ -27,13 +27,14 @@
 \begin{itemize}[parsep=0.2ex]
   \item \textbf{海思平台音视频系统开发}: \newline
     动力环境监控设备，负责音视频开发，设计实现了码流无编解码的OSD叠加方案。
-  \item \textbf{rk新平台室内机音视频开发}: \newline
+  \item \textbf{rk新平台音视频开发}: \newline
     基于linux音频子系统ALSA的音频开发。包括适配codec内核驱动，抽象音频alsa接口，添加alsa插件，修改alsa源码增加滤波等。
-  \item \textbf{sigmastar新平台音视频系统开发}:\newline
-    新平台,新SDK,需要重新调整框架
+    工作内容为封装alsa接口，向上提供简单易用的接口。
+  \item \textbf{mstar新平台音视频开发}:\newline
+    新平台,适配新的SDK框架。
   \item \textbf{内部开源工具}:\newline
-    因为在服务器上编译各个库不方便，还设计到拷贝生成产物，对库进行代码静态扫描，从三方服务器下载静态库等多种操作，
-    使用python开发命令行工具，针对不同场景实现一键操作，把计算机能做的事情还给计算机操作。
+    python开发命令行工具，解析xml文件生成配置文件，根据配置文件实现自动从svn下载库代码，自动解析编译命令，自动拷贝生成产物，
+    后期根据需求增加了自动修改xml文件版本号，自动发起三方编译，自动从三方服务器下载编译产物等多种功能。
 \end{itemize}
 
 \datedsubsection{\textbf{AMARIS摩芮思科技咨询有限公司} \quad \textit{嵌入式软件} \quad \textit{自动化测试}}{2019.1 - 2019.4}
@@ -44,27 +45,27 @@
 \datedsubsection{\textbf{深圳科列技术股份有限公司} \quad \textit{嵌入式软件} \quad \textit{电池管理系统开发}}{2017.7 - 2019.1}
 \begin{itemize}[parsep=0.2ex]
     \item \textbf{电动汽车BMS开发}: \newline
-    基于AUTOSAR的新平台电池管理系统(BMS)开发，负责诊断系统开发:几百个电池单体的电压，电流，温度异常信息诊断处理，信息传输校验等。
-    需满足功能安全\emph{ISO26262}要求
+    基于AUTOSAR的新平台电池管理系统(BMS)开发，负责诊断系统开发:采集处理电池单体的电压，电流，温度信息，设计实现诊断策略，处理异常信息诊断，
+    处理电压温度电流异常时的状态保存及信息上报, 实现功能安全\emph{ISO26262}要求
   \item \textbf{诊断系统客户端开发}: \newline
-    完全独立设计开发的诊断系统PC客户端，使用Qt开发，逐页研读\emph{ISO14229}英文原版标准，支持多语言，支持多种CAN通讯设备，为支持不同厂家的不同协议，
-    实现了根据加载的配置文件改变客户端外观，改变协议内容。
+    Qt开发的上位机工具，根据标准文档\emph{ISO14229}原文要求实现UDS诊断功能。
+    开发期间逐页研读\emph{ISO14229}英文原文，独立设计完成了模块化的诊断功能，支持多语言，支持多种CAN通讯设备，为支持不同厂家的不同协议，
+    可根据加载的配置文件改变客户端外观，改变诊断顺序。
   \item \textbf{其他工作}: \newline
-    单片机CAN，UART，SPI驱动开发
+    单片机上CAN，UART，SPI驱动开发
 \end{itemize}
 
 \section{个人总结}
 \begin{itemize}[parsep=0.2ex]
-  \item \textbf{有成熟的科研基础，可探索新技术}\newline
-    硕士期间为暗物质探测卫星(悟空号)正式成员，负责塑闪探测器的数据重建分析，相关成果已在\emph{Nature}发表，
-    对新事物或新技术有强烈的兴趣,同时对探测新技术有自己的学习方法。
+  \item \textbf{对新技术充满热情}\newline
+    喜欢钻研新技术，比如开发ALSA音频时研究阅读内核及alsa库的源代码,开发UDS诊断时阅读ISO文档原文深入了解协议的内容，不断尝试优化完成新技术开发。
   \item \textbf{善于自我总结与提高}\newline
-  个人博客中记录内容全部为原创，且绝大部分都是网络上首创教程或总结。
-  比如在阅读linux音频子系统源代码时对ALSA的跟踪分析(https://blog.whatsroot.xyz/2020/08/11/alsa\_snd\_open-analysis-6/),无论是中文网络还是英文网络都找不到第二份相关分析。
-  \item \textbf{可根据英文论文或标准实现代码}\newline
-  博客中有对ISO14229原文难点部分的总结:https://blog.whatsroot.xyz/2019/03/02/UDS-DTC-introduction/
-  \item \textbf{坚持阅读}\newline
-  有坚持读书的习惯，从物理专业到目前音视频开发，都是基于平时不间断的阅读，读书是google或视频等其他方法无法替代的最深入系统的学习方式。
+    在解决掉复杂的问题或者系统学习过某个内容后都会重新整理记录，
+比如在阅读linux音频子系统源代码时对ALSA的跟踪分析(https://blog.whatsroot.xyz/2020/08/11/alsa\_snd\_open-analysis-6/)就是在一点点阅读理解源代码后做的总结，
+这些内容都是无论中文还是英文搜索引擎上都没有的首次详细深入的分析过程。
+  \item \textbf{乐观自信,坚持阅读}\newline
+    硕士期间是暗物质探测卫星(悟空号)正式成员，相关成果已在\emph{Nature}发表，在最前沿的科研经历锻炼了对未知难题的处理方法与处理心态，
+    了解自身还有哪些欠缺的内容，了解工作中还需要补充哪些内容，了解如何阅读以及阅读什么书籍来满足工作需要。
 \end{itemize}
 
 \end{document}
