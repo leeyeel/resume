@@ -1,4 +1,4 @@
-##sudo apt-get install texlive-full 说明
+## 说明
 
 直接用这个师弟的模板，懒得重新搞。有兴趣的可以去这个师弟的项目贡献代码:
 [https://github.com/hijiangtao/resume](https://github.com/hijiangtao/resume)
