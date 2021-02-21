@@ -13,6 +13,12 @@ sudo apt-get install texlive-full
 
 安装完成后使用`make`即可生成简历
 
+## 简历下载
+
+为方便下载，上传了生成的简历副本
+
+[点我下载](https://github.com/leeyeel/resume/blob/master/PDF/liyao.pdf)
+
 ## License
 
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
