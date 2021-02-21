@@ -17,7 +17,7 @@ sudo apt-get install texlive-full
 
 为方便下载，上传了生成的简历副本
 
-[点我下载](https://github.com/leeyeel/resume/blob/master/PDF/liyao.pdf)
+[点我查看简历](https://github.com/leeyeel/resume/blob/master/PDF/liyao.pdf)
 
 ## License
 
